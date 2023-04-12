@@ -1,7 +1,4 @@
-export class Cliente {
-    nome;
-    _cpf;
-
+export class Cliente{
     get cpf(){
         return this._cpf;
     }
@@ -9,6 +6,5 @@ export class Cliente {
     constructor(nome, cpf){
         this.nome = nome;
         this._cpf = cpf;
-
     }
 }
